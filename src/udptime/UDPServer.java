@@ -22,6 +22,10 @@ public class UDPServer{
 	public static void main(String[] args) {
 		
 	Server s = new Server(2000);
+        while(true){
+            s.leggi();
+            s.scrivi();
+        }
                 
 	}
 

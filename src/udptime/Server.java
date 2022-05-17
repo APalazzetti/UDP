@@ -68,4 +68,9 @@ int clientPort;
 				
     }
     
+    public void chiudi(){
+        dSocket.close();
+        System.out.println("Connessione chiusa!");
+    }
+    
 }
